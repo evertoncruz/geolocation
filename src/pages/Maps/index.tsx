@@ -3,13 +3,13 @@ import React from 'react';
 import Inner from './components/Inner';
 import { Container, Title } from './styles';
 
-const Home = () => {
+const Maps = () => {
   return (
     <Container>
-      <Title>Estudos sobre geolocalização</Title>
+      <Title>Página para estudos de utilização da API Google Maps</Title>
       <Inner />
     </Container>
   );
 };
 
-export default Home;
+export default Maps;

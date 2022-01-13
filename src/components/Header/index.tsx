@@ -1,13 +1,12 @@
 import React from 'react';
 
-import { Container, Title } from './styles';
+import Nav from '../Nav';
+import { Container } from './styles';
 
 const Header = () => {
   return (
     <Container>
-      <Title>
-        ESTUDOS PARA TRABALHO COM GEOLOCALIZAÇÃO UTILIZANDO API GOOGLEMAPS.
-      </Title>
+      <Nav />
     </Container>
   );
 };

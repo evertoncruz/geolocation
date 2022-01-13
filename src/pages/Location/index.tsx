@@ -3,13 +3,13 @@ import React from 'react';
 import Inner from './components/Inner';
 import { Container, Title } from './styles';
 
-const Home = () => {
+const Location = () => {
   return (
     <Container>
-      <Title>Estudos sobre geolocalização</Title>
+      <Title>Página para estudos do pacote react-hook-geolocation</Title>
       <Inner />
     </Container>
   );
 };
 
-export default Home;
+export default Location;

@@ -1,20 +1,20 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
+import 'antd/dist/antd.variable.min.css';
+
 import Header from './components/Header';
 import GlobalStyle from './globalStyles';
-import Home from './pages/Home';
 import MainRoutes from './routes/mainRoutes';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
       <Router>
+        <Header />
         <MainRoutes />
       </Router>
-      <Home />
     </>
   );
 }
